@@ -1,3 +1,12 @@
 .bio {
- padding-top: 30%;
+    padding-top: 30%;
+}
+
+.nav-link{
+    color:beige;
+}
+
+.pictureOfme{
+    width:450px;
+    padding-top:20%;
 }
