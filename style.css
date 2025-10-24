@@ -1,12 +1,19 @@
 .bio {
     padding-top: 30%;
 }
-
+h1{
+    padding-top: 1%;
+}
 .nav-link{
     color:beige;
 }
 
 .pictureOfme{
-    width:450px;
+    width:400px;
     padding-top:20%;
+    border-radius: 75%;
+}
+
+.navbar-toggler-icon{
+    border-color: beige;
 }
