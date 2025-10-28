@@ -1,16 +1,16 @@
 .bio {
-    padding-top: 30%;
+   text-indent: 20px;
 }
 h1{
     padding-top: 1%;
 }
 .nav-link{
-    color:beige;
+    color:rgb(226, 226, 173);
 }
 
 .pictureOfme{
     width:400px;
-    padding-top:20%;
+    /* padding-top:20%; */
     border-radius: 75%;
 }
 
