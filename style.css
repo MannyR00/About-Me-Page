@@ -47,11 +47,32 @@ body{
     object-fit: cover; 
 }
 
-.carousel-control-next, .carousel-control-prev{
+.carousel-control-next, .carousel-control-prev {
     background-color: black;
 }
 
 .navbar{
     background-color: #0e0e55ca;
     color: #ffffff;
+}
+
+.carousel-indicators [data-bs-target].active {
+    background-color: black; 
+    border-color: black;   
+    width: 10px;        
+    height: 1px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: darkgray; 
+    border-color: darkgray;   
+    width: 10px;        
+    height: .1px;      
+    margin-right: 4px;  
+    margin-left: 4px;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+    background-color: #333333; 
+    border-color: #333333;
 }
