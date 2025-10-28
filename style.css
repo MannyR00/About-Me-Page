@@ -47,10 +47,11 @@ body{
     object-fit: cover; 
 }
 
-.carousel-control-next{
+.carousel-control-next, .carousel-control-prev{
     background-color: black;
 }
 
-.carousel-control-prev{
-    background-color: black;;
+.navbar{
+    background-color: #0e0e55ca;
+    color: #ffffff;
 }
