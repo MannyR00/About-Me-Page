@@ -3,9 +3,17 @@
 }
 h1{
     padding-top: 1%;
+    font-family: "Libre Baskerville", serif;;
+}
+h3{
+    font-family: "Libre Baskerville", serif;;
 }
 h5{
     color: black;
+    size: 1rem;
+}
+p, li{
+    font-family: "Parkinsans", sans-serif;
 }
 
  .carousel-caption p {
@@ -78,4 +86,9 @@ body{
 
 .card{
     height: 500px;
+}
+
+ .card-img-top{
+    height: 14vw;
+    width: 100%;
 }
