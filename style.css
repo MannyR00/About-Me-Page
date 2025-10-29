@@ -86,6 +86,7 @@ body{
 
 .card{
     height: 600px;
+    border-radius: 25px;
 }
 
  .card-img-top{
