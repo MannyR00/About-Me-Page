@@ -45,12 +45,12 @@ body{
 }
 
 #carouselExampleCaptions .carousel-inner {
-    max-height: 350px; 
+    max-height: 500px; 
 }
 
 
 #carouselExampleCaptions .carousel-item img {
-    height: 350px; 
+    height: 500px; 
     object-fit: cover; 
 }
 
@@ -67,7 +67,7 @@ body{
     background-color: black; 
     border-color: black;   
     width: 10px;        
-    height: 1px;
+    height: 5px;
 }
 
 .carousel-indicators [data-bs-target] {
