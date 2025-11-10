@@ -55,7 +55,7 @@ body{
 }
 
 .carousel-control-next, .carousel-control-prev {
-    background-color: black;
+    background-color: grey;
 }
 
 .navbar{
@@ -85,14 +85,27 @@ body{
 }
 
 .card{
-    height: 500px;
+    height: 550px;
     border-radius: 15px;
     width: 30rem;
 }
 
  .card-img-top{
-    height: 15vw;
+    height: 300px;
     width: 100%;
-    
-    object-fit: cover;
+   
+}
+
+.carousel-caption p, .carousel-caption h5{
+  color: white;  
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); 
+}
+
+.aboutFooter{
+  background-color: #0e0e55ca;
+}
+
+.aboutFooter p{
+   color: rgb(226, 226, 173); 
+   margin-bottom: 0;
 }
