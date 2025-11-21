@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Portfolio</title>
     <link
       rel="stylesheet"
@@ -10,36 +10,36 @@
       integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+    >
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
-    />
+    >
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
+      async
+      defer
     ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    >
     <link
       href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap"
       rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+    >
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#"></a>
+  <body class="about">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Luis Ramirez</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -57,19 +57,21 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="projects.html">Projects</a>
             </li>
           </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
+    <header>
+      <h1 class="name text-center">About Me</h1>
     </header>
 
-    <main class="d-flex flex-column justify-content-center min-vh-100">
-      <h1 class="name text-center">About Me</h1>
-      <div class="row pt-4">
+    <main class="container d-flex flex-column justify-content-center">
+      <article class="row pt-4">
         <div class="col col-sm-12 col-lg-6 col-xxl-5 mx-auto">
           <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators d-flex justify-content-center">
@@ -96,16 +98,18 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="A7D6FB18-EDA0-4BD4-8DE2-168305D62C7E_1_201_a.jpeg" class="d-block w-100" alt="..." />
+                <img
+                  src="A7D6FB18-EDA0-4BD4-8DE2-168305D62C7E_1_201_a.jpeg"
+                  class="d-block w-100"
+                  alt="..."
+                >
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Patelco Workshop</h5>
-                  <p>
-                    Group picture with Patelco.
-                  </p>
+                  <p>Group picture with Patelco.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="..." />
+                <img src="..." class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Second slide label</h5>
                   <p>
@@ -115,7 +119,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="..." />
+                <img src="..." class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Third slide label</h5>
                   <p>
@@ -150,50 +154,61 @@
             </button>
           </div>
         </div>
-      </div>
+      </article>
 
-      <div class="container my-5">
+      <article class="container my-5">
         <div class="row">
-          <div class="col col-sm-12 col-lg-6 col-xxl-6">
-            <h3 class="mb-3">Skills</h3>
+          <section class="col-12 col-sm-12 col-lg-6 col-xxl-6">
+            <h2 class="mb-3">Skills</h2>
             <ul class="lh-lg">
               <li>
-                <b>Coding Languages:</b> C++, MIPS, Python, MATLAB, HTML, CSS,
-                Java, Bootstrap
+                <span class="fw-bold">Coding Languages:</span> C++, MIPS,
+                Python, MATLAB, HTML, CSS, Java, Bootstrap
               </li>
-              <li><b>Operating Systems:</b> Windows & MacOs</li>
               <li>
-                <b>Artificial Intelligence:</b> Machine Learning, Large Language
-                Models, ChatGPT
+                <span class="fw-bold">Operating Systems:</span> Windows & MacOs
               </li>
-              <li><b>Languages:</b> Spanish</li>
-              <li><b>Software:</b> Google Suites & Microsoft Office</li>
+              <li>
+                <span class="fw-bold">Artificial Intelligence:</span> Machine
+                Learning, Large Language Models, ChatGPT
+              </li>
+              <li><span class="fw-bold">Languages:</span> Spanish</li>
+              <li>
+                <span class="fw-bold">Software:</span> Google Suites & Microsoft
+                Office
+              </li>
             </ul>
-          </div>
+          </section>
 
-          <div class="col col-sm-12 col-lg-6 col-xxl-6">
-            <h3 class="mb-3">Experience & Education</h3>
+          <section class="col-12 col-sm-12 col-lg-6 col-xxl-6">
+            <h2 class="mb-3">Experience & Education</h2>
             <ul class="lh-lg">
               <li>
-                <b>San Francisco State:</b> B.S in Computer Science
-                <i>(2019-2024)</i>
+                <span class="fw-bold">San Francisco State:</span> B.S in
+                Computer Science
+                <span class="fst-italic">(2019-2024)</span>
               </li>
               <li>
-                <b>Target:</b> General Merchandise/Hardlines
-                <i>(Nov. 2021-Feb. 2022)</i>
+                <span class="fw-bold">Target:</span> General
+                Merchandise/Hardlines
+                <span class="fst-italic">(Nov. 2021-Feb. 2022)</span>
               </li>
-              <li><b>UPS:</b> Retail Associate <i>(Feb. 2022-Feb. 2023)</i></li>
               <li>
-                <b>CAHSI REU:</b> Research Intern <i>(Feb. 2023-July 2023)</i>
+                <span class="fw-bold">UPS:</span> Retail Associate
+                <span class="fst-italic">(Feb. 2022-Feb. 2023)</span>
+              </li>
+              <li>
+                <span class="fw-bold">CAHSI REU:</span> Research Intern
+                <span class="fst-italic">(Feb. 2023-July 2023)</span>
               </li>
             </ul>
-          </div>
+          </section>
         </div>
-      </div>
+      </article>
     </main>
-      <footer class="text-center aboutFooter">
-  <p>©Luis Ramirez 2025</p>
-</footer>
+    <footer class="text-center aboutFooter">
+      <p>©Luis Ramirez 2025</p>
+    </footer>
+    <script src="script.js"></script>
   </body>
-
 </html>
