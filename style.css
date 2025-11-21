@@ -1,111 +1,186 @@
+:root {
+  --dark-bg: hsl(240, 30%, 30%);
+  --light-bg: hsl(57, 100%, 91%);
+  --light-text-color: hsl(60, 48%, 78%);
+  --dark-text-color: hsl(210, 11%, 15%);
+}
+
+body {
+  font:
+    16px Parkinsans,
+    sans-serif;
+  background-color: hsl(57, 100%, 91%);
+  background-color: var(--light-bg);
+  color: var(--dark-text-color);
+}
+nav.navbar {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--dark-bg);
+}
+nav .collapse {
+  flex-grow: 0;
+}
+.navbar-collapse.show {
+  margin: 0;
+  padding: 0.5rem;
+}
+.nav-link {
+  color: hsl(60, 48%, 78%);
+  color: var(--light-text-color);
+}
+.navbar {
+  background-color: var(--dark-bg);
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+}
+main {
+  min-height: calc(100vh - 16rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.aboutFooter {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e0e55ca;
+  color: rgb(226, 226, 173);
+  p {
+    margin: 0;
+  }
+}
+.home {
+  display: flex;
+  flex-direction: column;
+
+  figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  figcaption {
+    margin: 2rem 0;
+  }
+  .img-container {
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 60%;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.my-text {
+  text-indent: 1.5rem;
+  line-height: 2;
+}
 .bio {
-   text-indent: 20px;
+  text-indent: 20px;
 }
-h1{
-    padding-top: 1%;
-    font-family: "Libre Baskerville", serif;;
+h1 {
+  padding-top: 1%;
+  font-family: "Libre Baskerville", serif;
 }
-h3{
-    font-family: "Libre Baskerville", serif;;
+h3 {
+  font-family: "Libre Baskerville", serif;
 }
-h5{
-    color: black;
-    size: 1rem;
+h5 {
+  color: black;
+  size: 1rem;
 }
-p, li{
-    font-family: "Parkinsans", sans-serif;
-}
-
- .carousel-caption p {
-    color: black;
+p,
+li {
+  font-family: "Parkinsans", sans-serif;
 }
 
-.nav-link{
-    color:rgb(226, 226, 173);
+.carousel-caption p {
+  color: black;
 }
 
-.pictureOfme{
-    width:400px;
-    border-radius: 75%;
+.pictureOfme {
+  width: 400px;
+  border-radius: 75%;
 }
 
-
-body{
-    background-color: #fffdd0e5;
+.linkedInBut {
+  background-color: #0e0e55;
+  border-color: rgb(226, 226, 173);
 }
 
-.linkedInBut{
-    background-color:#0E0E55; 
-    border-color:  rgb(226, 226, 173);
-}
-
-.linkedInBut:hover{
-    background-color:#6f6fe3; 
-    border-color:  rgb(226, 226, 173);
+.linkedInBut:hover {
+  background-color: #6f6fe3;
+  border-color: rgb(226, 226, 173);
 }
 
 #carouselExampleCaptions .carousel-inner {
-    max-height: 500px; 
+  max-height: 500px;
 }
-
 
 #carouselExampleCaptions .carousel-item img {
-    height: 500px; 
-    object-fit: cover; 
+  height: 500px;
+  object-fit: cover;
 }
 
-.carousel-control-next, .carousel-control-prev {
-    background-color: grey;
-}
-
-.navbar{
-    background-color: #0e0e55ca;
-    color: #ffffff;
+.carousel-control-next,
+.carousel-control-prev {
+  background-color: grey;
 }
 
 .carousel-indicators [data-bs-target].active {
-    background-color: black; 
-    border-color: black;   
-    width: 10px;        
-    height: 5px;
+  background-color: black;
+  border-color: black;
+  width: 10px;
+  height: 5px;
 }
 
 .carousel-indicators [data-bs-target] {
-    background-color: darkgray; 
-    border-color: darkgray;   
-    width: 10px;        
-    height: .1px;      
-    margin-right: 4px;  
-    margin-left: 4px;
+  background-color: darkgray;
+  border-color: darkgray;
+  width: 10px;
+  height: 0.1px;
+  margin-right: 4px;
+  margin-left: 4px;
 }
 
 .carousel-indicators [data-bs-target]:hover {
-    background-color: #333333; 
-    border-color: #333333;
+  background-color: #333333;
+  border-color: #333333;
 }
 
-.card{
-    height: 550px;
-    border-radius: 15px;
-    width: 30rem;
+.card {
+  height: 550px;
+  border-radius: 15px;
+  width: 30rem;
 }
 
- .card-img-top{
-    height: 300px;
-    width: 100%;
-   
+.card-img-top {
+  height: 300px;
+  width: 100%;
 }
 
-.carousel-caption p, .carousel-caption h5{
-  color: white;  
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); 
-}
-
-.aboutFooter{
-  background-color: #0e0e55ca;
-}
-
-.aboutFooter p{
-   color: rgb(226, 226, 173); 
-   margin-bottom: 0;
+.carousel-caption p,
+.carousel-caption h5 {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
